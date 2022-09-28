@@ -1,0 +1,40 @@
+.container{
+display: flex;
+align-items: center;
+justify-content: right;
+text-align: center;
+width: 700px;
+}
+h3{
+    color:rgb(50, 47, 52);
+    background: rgb(207, 207, 207);
+    border-radius: 5px;
+    padding-left: 4px;
+}
+.container-lista__usuario{
+display: flex;
+flex-direction: column;
+background-color: rgb(247, 247, 244);
+border-radius: 5px;
+text-align: start;
+padding: 15px;
+font-weight: bold;
+}
+
+.container-lista__usuario span{
+    color: gray;
+}
+.container-lista__usuario a{
+    background: #000;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+.container-lista__usuario a:hover {
+    color: antiquewhite;
+    background: rgb(47, 46, 46);
+    transition: 0.3;
+    }

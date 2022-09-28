@@ -1,0 +1,40 @@
+.container{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.container-lista{
+margin: 15px 0;
+
+}
+.container-lista__album{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgb(247, 247, 244);
+margin: 15px;
+padding: 15px;
+border-radius: 5px;
+}
+
+
+
+
+.container-lista__album a{
+    background: #000;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+.container-lista__album a:hover {
+    color: antiquewhite;
+    background: rgb(47, 46, 46);
+    transition: 0.3;
+    }
